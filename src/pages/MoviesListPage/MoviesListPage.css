@@ -1,0 +1,42 @@
+/* App.css */
+
+/* ... existing styles ... */
+
+/* Style the MovieListPage */
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  /* Style the MovieCard */
+  .movie-card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .movie-card-image {
+    background-size: cover;
+    height: 300px;
+  }
+  
+  .movie-card-details {
+    padding: 10px;
+    background-color: white;
+    color: black;
+  }
+  
+  .movie-card-title {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .movie-card-date {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* ... existing styles ... */
+  

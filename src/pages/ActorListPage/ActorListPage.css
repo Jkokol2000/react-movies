@@ -1,0 +1,31 @@
+.actor-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.actor-name {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+.ActorListPage {
+    text-align: center;
+}
+
+.actor-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.actor-grid > div {
+    margin: 10px;
+}
